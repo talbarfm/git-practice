@@ -6,3 +6,4 @@ merge_destination
 
 develop
 feature/example_feature
+
