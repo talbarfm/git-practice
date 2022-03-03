@@ -7,6 +7,7 @@ def sum67(nums):
     """
     new_list = []
     while 6 in nums:
+        print("Changes")
         index_six = nums.index(6)
         new_list.extend(nums[:index_six])
         nums = nums[index_six:]
