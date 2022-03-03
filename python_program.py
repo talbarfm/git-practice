@@ -15,6 +15,7 @@ def sum67(nums):
         nums = nums[index_six:]
         nums = nums[nums.index(7) + 1:]
     new_list.extend(nums)
+    print("blablabla - new changes")
     return sum(new_list)
 
 def new_very_important_feature(input_list: List[int]):
