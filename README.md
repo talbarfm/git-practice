@@ -15,7 +15,7 @@ Nested repo branch (doesnt contain the nested repo, git doesnt save it - should 
 
 nested_repo
 
-
+bla bla lba
 
 Gitignore example - 
 
