@@ -1,3 +1,6 @@
+from typing import List
+
+
 def sum67(nums):
     """
     Gets the sum of the numbers in the array, except ignore sections of numbers starting with a 6
@@ -14,9 +17,12 @@ def sum67(nums):
     new_list.extend(nums)
     return sum(new_list)
 
+def new_very_important_feature(input_list: List[int]):
+    return input_list[::-1]
+
 
 def main():
-    print(sum67([1, 2, 3, 4, 5, 6, 7, 2, 3, 6, 2, 3, 7, 0, 1]))
+    print(sum67(new_very_important_feature([1, 2, 3, 4, 5, 6, 7, 2, 3, 6, 2, 3, 7, 0, 1])))
     print(sum67([]))
 
 
